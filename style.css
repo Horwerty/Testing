@@ -1,4 +1,55 @@
 
 * {
-    background-color: aqua;  
+    background-color: white;  
+}
+
+li {
+    list-style-type: none;
+}
+
+.products {
+    background-color: rgba(227, 152, 24, 0.797);
+    border-style: solid;
+    padding: 10px;
+}
+
+.cakes {
+    background-color: rgba(227, 152, 24, 0.797);
+    border-style: solid;
+    padding: 10px;
+}
+
+.flavors {
+    background-color: rgba(227, 152, 24, 0.797);
+    border-style: solid;
+    padding: 10px;
+}
+
+#zindex {
+    background-color: red;
+    width: 45px;
+    height: 35px;
+    z-index: 1;
+    padding-top: 0;
+    box-shadow: transparent;
+}
+
+.griditem {
+    border-style: solid;
+    margin: 10px;
+    background-color: white;
+}
+
+#sub {
+    background-color: rgb(24, 28, 138);
+    cursor: pointer;
+    color: azure;
+    margin-left: 140px;
+    width: 100px;
+}
+
+#cho {
+    background-color: rgb(24, 28, 138);
+    cursor: pointer;
+    color: azure; 
 }

@@ -6,11 +6,11 @@ body {
 
 header {
     background-image: url("https://media.gettyimages.com/photos/roses-on-top-of-piece-of-cake-picture-id1366709095?k=20&m=1366709095&s=612x612&w=0&h=Te62xqmt_L0qRDkfgWHv38PKyVhVU1lcdf0W_ggW2Yo=");
-    background-size: cover;
-    background-position: center;
+    background-size:auto;
+    background-position:center;
     height: calc(100vh - 90px);
-    display: flex;
     justify-content: center;
+    display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
@@ -185,17 +185,23 @@ img {
 }
 
 #sub {
-    background-color: rgb(24, 28, 138);
+    background-color: orange;
     cursor: pointer;
     color: azure;
     margin-left: 140px;
     width: 100px;
+    border-radius: 10px;
 }
 
 #cho {
-    background-color: rgb(24, 28, 138);
+    background-color: orangered;
     cursor: pointer;
     color: azure; 
+    border-radius: 10px;
+}
+
+#buts {
+    justify-content: center;
 }
 
 .heading {
@@ -204,6 +210,7 @@ img {
     height: 30px;
     text-align: justify;
     padding-left: 35px;
+    background-size: 30px;
 }
 
 .ourproducts #hh {

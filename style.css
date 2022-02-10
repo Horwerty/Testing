@@ -1,32 +1,33 @@
-
-* {
-    background-color: white;  
-}
+  
 
 body {
     margin: 50px;
 }
 
-img {
-    width: 100%;
-}
-
 header {
-    background-image: url("https://media.gettyimages.com/photos/birthday-cake-and-presents-picture-id618427308?k=20&m=618427308&s=612x612&w=0&h=nK7GFy75mM7yowMe_dIcxbA_Yg_nBmTrilIz5diZA3Q=");
+    background-image: url("https://media.gettyimages.com/photos/roses-on-top-of-piece-of-cake-picture-id1366709095?k=20&m=1366709095&s=612x612&w=0&h=Te62xqmt_L0qRDkfgWHv38PKyVhVU1lcdf0W_ggW2Yo=");
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 90px);
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    position: relative;;
+    position: relative;
+    width: 100%;
 }
 
 h3 {
-   position: absolute;
-   z-index: 1;
-   color: black
+    position: absolute;
+    z-index: 1;
+    color: white;
+    padding-top: 280px;
+    margin-left: 100px;
+}
+
+h5 {
+    color: white;
+    margin-left: 35px;
 }
 
 #cover {
@@ -35,7 +36,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.468);
+    background-color: rgba(0, 0, 0, 0.728);
 }
 
 li {
@@ -50,8 +51,10 @@ li {
 .container {
     background-color: rgba(227, 152, 24, 0.797);
     padding: 10px;
-    padding-left: 130px;
+    padding-left: 115px;
     color: white;
+    width: auto;
+    font-size: 00.75rem;
 }
 
 .container h4 {
@@ -66,6 +69,8 @@ li {
     background-color: gray;
     padding: 10px;
     color: white;
+    width: auto;
+    font-size: 0.65rem;
 }
 
 .cakes h4 {
@@ -81,6 +86,8 @@ li {
     padding: 10px;
     padding-right: 130px;
     color: white;
+    width: max-content;
+    font-size: 0.75rem;
 }
 
 .flavors h4 {
@@ -89,6 +96,10 @@ li {
 
 .flavors #ff {
     background-color: orangered;
+}
+
+.divtext {
+    font-size: 1.2rem;
 }
 
 #zindex {
@@ -117,24 +128,30 @@ img {
 
 
 .items img {
-    width: 150px;
-    height: fit-content;
+    width: 100px;
+    height: max-content;
+    justify-content: space-between;
 }
 
 .items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 30px;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    grid-template: max-content;
 }
 
 .items p {
     padding-left: 20px;
-    height: auto;
+    font-size: 0.8rem;
 }
 
 #spongy {
     margin: 30px;
     display: flex;
+    justify-content: center;
 }
 
 #spongy img {
@@ -148,13 +165,25 @@ img {
 
 #advert .ads {
     color: orange;
-    margin: 35px;
-    width: 50%;
+    margin: 85px;
+    width: 20%;
 }
 
 #adstext {
     margin-left: 15px;
+    width: 80%;
+    font-size: small;
 }
+
+#adstext button {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+#advert .ads span {
+    color: gray;
+}
+
 #sub {
     background-color: rgb(24, 28, 138);
     cursor: pointer;
@@ -170,10 +199,15 @@ img {
 }
 
 .heading {
-    background-color: hsl(red, gold, green);
+    background-color: black;
     color: white;
-    height: 35px;
+    height: 30px;
     text-align: justify;
+    padding-left: 35px;
+}
+
+.ourproducts #hh {
+    margin: 30px;
 }
 
 footer {
